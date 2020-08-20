@@ -1,0 +1,1 @@
+# netcoretraining2020
