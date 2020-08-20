@@ -1,0 +1,354 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\WebApi1\\WebApi1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.DataAccess\\AT.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.DataAccess\\AT.DataAccess.csproj",
+        "projectName": "AT.DataAccess",
+        "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.DataAccess\\AT.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Erik Basto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Erik Basto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IDataAccess\\AT.IDataAccess.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IDataAccess\\AT.IDataAccess.csproj"
+              },
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj"
+              },
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\AT.Model.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\AT.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IDataAccess\\AT.IDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IDataAccess\\AT.IDataAccess.csproj",
+        "projectName": "AT.IDataAccess",
+        "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IDataAccess\\AT.IDataAccess.csproj",
+        "packagesPath": "C:\\Users\\Erik Basto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Erik Basto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj"
+              },
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\AT.Model.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\AT.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj",
+        "projectName": "AT.IModel",
+        "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj",
+        "packagesPath": "C:\\Users\\Erik Basto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Erik Basto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\AT.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\AT.Model.csproj",
+        "projectName": "AT.Model",
+        "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\AT.Model.csproj",
+        "packagesPath": "C:\\Users\\Erik Basto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Erik Basto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\WebApi1\\WebApi1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\WebApi1\\WebApi1.csproj",
+        "projectName": "WebApi1",
+        "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\WebApi1\\WebApi1.csproj",
+        "packagesPath": "C:\\Users\\Erik Basto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\WebApi1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Erik Basto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.DataAccess\\AT.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.DataAccess\\AT.DataAccess.csproj"
+              },
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IDataAccess\\AT.IDataAccess.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IDataAccess\\AT.IDataAccess.csproj"
+              },
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj"
+              },
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\AT.Model.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\AT.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

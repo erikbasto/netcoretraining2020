@@ -1,0 +1,12 @@
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.Model\bin\Debug\netstandard2.0\AT.Model.deps.json
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.Model\bin\Debug\netstandard2.0\AT.Model.dll
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.Model\bin\Debug\netstandard2.0\AT.Model.pdb
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.Model\bin\Debug\netstandard2.0\AT.IModel.dll
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.Model\bin\Debug\netstandard2.0\AT.IModel.pdb
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.Model\obj\Debug\netstandard2.0\AT.Model.csprojAssemblyReference.cache
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.Model\obj\Debug\netstandard2.0\AT.Model.AssemblyInfoInputs.cache
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.Model\obj\Debug\netstandard2.0\AT.Model.AssemblyInfo.cs
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.Model\obj\Debug\netstandard2.0\AT.Model.csproj.CoreCompileInputs.cache
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.Model\obj\Debug\netstandard2.0\AT.Model.csproj.CopyComplete
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.Model\obj\Debug\netstandard2.0\AT.Model.dll
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.Model\obj\Debug\netstandard2.0\AT.Model.pdb

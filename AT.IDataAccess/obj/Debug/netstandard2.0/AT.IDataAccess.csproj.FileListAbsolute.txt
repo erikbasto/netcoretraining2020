@@ -1,0 +1,14 @@
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.IDataAccess\bin\Debug\netstandard2.0\AT.IDataAccess.deps.json
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.IDataAccess\bin\Debug\netstandard2.0\AT.IDataAccess.dll
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.IDataAccess\bin\Debug\netstandard2.0\AT.IDataAccess.pdb
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.IDataAccess\bin\Debug\netstandard2.0\AT.IModel.dll
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.IDataAccess\bin\Debug\netstandard2.0\AT.Model.dll
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.IDataAccess\bin\Debug\netstandard2.0\AT.IModel.pdb
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.IDataAccess\bin\Debug\netstandard2.0\AT.Model.pdb
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.IDataAccess\obj\Debug\netstandard2.0\AT.IDataAccess.csprojAssemblyReference.cache
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.IDataAccess\obj\Debug\netstandard2.0\AT.IDataAccess.AssemblyInfoInputs.cache
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.IDataAccess\obj\Debug\netstandard2.0\AT.IDataAccess.AssemblyInfo.cs
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.IDataAccess\obj\Debug\netstandard2.0\AT.IDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.IDataAccess\obj\Debug\netstandard2.0\AT.IDataAccess.csproj.CopyComplete
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.IDataAccess\obj\Debug\netstandard2.0\AT.IDataAccess.dll
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.IDataAccess\obj\Debug\netstandard2.0\AT.IDataAccess.pdb
