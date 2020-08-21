@@ -55,6 +55,23 @@ namespace AT.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("ProductTypes");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            ProductTypeName = "Electronics"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            ProductTypeName = "Vegetables"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            ProductTypeName = "Pets"
+                        });
                 });
 
             modelBuilder.Entity("AT.Model.Common.User", b =>
