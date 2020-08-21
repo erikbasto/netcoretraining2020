@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I+abSjQiquCkVCImaFEynTdULXXlyWFgHquTRzpKV8ChseSwxyBUSc1occVEqpIlAq5d9L/EOhVQSzh1XnTcNQ==",
+  "dgSpecHash": "FAsWjLixqHOvWEtTtaUje20av/8J3Srg4zYn0ucst8inMPIUP1Nm1NKhclgqldUmamwsIf1MeF2qHABDJD9QHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj",
+  "projectFilePath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IModel\\AT.IModel.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

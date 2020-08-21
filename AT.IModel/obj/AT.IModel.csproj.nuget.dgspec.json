@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj": {}
+    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IModel\\AT.IModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj": {
+    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IModel\\AT.IModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj",
+        "projectUniqueName": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IModel\\AT.IModel.csproj",
         "projectName": "AT.IModel",
-        "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj",
+        "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IModel\\AT.IModel.csproj",
         "packagesPath": "C:\\Users\\Erik Basto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\obj\\",
+        "outputPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

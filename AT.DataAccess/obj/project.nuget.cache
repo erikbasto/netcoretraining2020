@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vYxw0UEzfAEChTa3K6BWdV5xILicurmIm9XUg/Fm17G8tLT82ox48eL2jzI55kA/WIBnqAk/6e5LMzp0xll7Qw==",
+  "dgSpecHash": "HqGmA1u6uN2sPTQQqlxk1f+ExMqoqNK7/3oIZlegGKNIPUtU0Zst6Eukzgfo12IqphamGAQi3Yz2zJg4yCFclQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.DataAccess\\AT.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.DataAccess\\AT.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Erik Basto\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Erik Basto\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

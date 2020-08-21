@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\WebApi1\\WebApi1.csproj": {}
+    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\WebApi1\\WebApi1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.DataAccess\\AT.DataAccess.csproj": {
+    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.DataAccess\\AT.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.DataAccess\\AT.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.DataAccess\\AT.DataAccess.csproj",
         "projectName": "AT.DataAccess",
-        "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.DataAccess\\AT.DataAccess.csproj",
+        "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.DataAccess\\AT.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Erik Basto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,14 +30,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IDataAccess\\AT.IDataAccess.csproj": {
-                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IDataAccess\\AT.IDataAccess.csproj"
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IDataAccess\\AT.IDataAccess.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IDataAccess\\AT.IDataAccess.csproj"
               },
-              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj": {
-                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj"
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IModel\\AT.IModel.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IModel\\AT.IModel.csproj"
               },
-              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\AT.Model.csproj": {
-                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\AT.Model.csproj"
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.Model\\AT.Model.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.Model\\AT.Model.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IDataAccess\\AT.IDataAccess.csproj": {
+    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IDataAccess\\AT.IDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IDataAccess\\AT.IDataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IDataAccess\\AT.IDataAccess.csproj",
         "projectName": "AT.IDataAccess",
-        "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IDataAccess\\AT.IDataAccess.csproj",
+        "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IDataAccess\\AT.IDataAccess.csproj",
         "packagesPath": "C:\\Users\\Erik Basto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IDataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -109,11 +109,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj": {
-                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj"
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IModel\\AT.IModel.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IModel\\AT.IModel.csproj"
               },
-              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\AT.Model.csproj": {
-                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\AT.Model.csproj"
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.Model\\AT.Model.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.Model\\AT.Model.csproj"
               }
             }
           }
@@ -145,14 +145,14 @@
         }
       }
     },
-    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj": {
+    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IModel\\AT.IModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj",
+        "projectUniqueName": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IModel\\AT.IModel.csproj",
         "projectName": "AT.IModel",
-        "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj",
+        "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IModel\\AT.IModel.csproj",
         "packagesPath": "C:\\Users\\Erik Basto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\obj\\",
+        "outputPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -200,14 +200,14 @@
         }
       }
     },
-    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\AT.Model.csproj": {
+    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.Model\\AT.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\AT.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.Model\\AT.Model.csproj",
         "projectName": "AT.Model",
-        "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\AT.Model.csproj",
+        "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.Model\\AT.Model.csproj",
         "packagesPath": "C:\\Users\\Erik Basto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\obj\\",
+        "outputPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -226,8 +226,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj": {
-                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj"
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IModel\\AT.IModel.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IModel\\AT.IModel.csproj"
               }
             }
           }
@@ -259,14 +259,14 @@
         }
       }
     },
-    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\WebApi1\\WebApi1.csproj": {
+    "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\WebApi1\\WebApi1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\WebApi1\\WebApi1.csproj",
+        "projectUniqueName": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\WebApi1\\WebApi1.csproj",
         "projectName": "WebApi1",
-        "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\WebApi1\\WebApi1.csproj",
+        "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\WebApi1\\WebApi1.csproj",
         "packagesPath": "C:\\Users\\Erik Basto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\WebApi1\\obj\\",
+        "outputPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\WebApi1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -285,17 +285,17 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.DataAccess\\AT.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.DataAccess\\AT.DataAccess.csproj"
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.DataAccess\\AT.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.DataAccess\\AT.DataAccess.csproj"
               },
-              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IDataAccess\\AT.IDataAccess.csproj": {
-                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IDataAccess\\AT.IDataAccess.csproj"
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IDataAccess\\AT.IDataAccess.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IDataAccess\\AT.IDataAccess.csproj"
               },
-              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj": {
-                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.IModel\\AT.IModel.csproj"
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IModel\\AT.IModel.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.IModel\\AT.IModel.csproj"
               },
-              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\AT.Model.csproj": {
-                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Session1\\AT.Model\\AT.Model.csproj"
+              "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.Model\\AT.Model.csproj": {
+                "projectPath": "C:\\Users\\Erik Basto\\source\\repos\\TrainingNetCore\\Code\\netcoretraining2020\\AT.Model\\AT.Model.csproj"
               }
             }
           }

@@ -10,3 +10,15 @@ C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.Model\obj\Debug\net
 C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.Model\obj\Debug\netcoreapp3.1\AT.Model.csproj.CopyComplete
 C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.Model\obj\Debug\netcoreapp3.1\AT.Model.dll
 C:\Users\Erik Basto\source\repos\TrainingNetCore\Session1\AT.Model\obj\Debug\netcoreapp3.1\AT.Model.pdb
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Code\netcoretraining2020\AT.Model\bin\Debug\netcoreapp3.1\AT.Model.deps.json
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Code\netcoretraining2020\AT.Model\bin\Debug\netcoreapp3.1\AT.Model.dll
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Code\netcoretraining2020\AT.Model\bin\Debug\netcoreapp3.1\AT.Model.pdb
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Code\netcoretraining2020\AT.Model\bin\Debug\netcoreapp3.1\AT.IModel.dll
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Code\netcoretraining2020\AT.Model\bin\Debug\netcoreapp3.1\AT.IModel.pdb
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Code\netcoretraining2020\AT.Model\obj\Debug\netcoreapp3.1\AT.Model.csprojAssemblyReference.cache
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Code\netcoretraining2020\AT.Model\obj\Debug\netcoreapp3.1\AT.Model.AssemblyInfoInputs.cache
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Code\netcoretraining2020\AT.Model\obj\Debug\netcoreapp3.1\AT.Model.AssemblyInfo.cs
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Code\netcoretraining2020\AT.Model\obj\Debug\netcoreapp3.1\AT.Model.csproj.CoreCompileInputs.cache
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Code\netcoretraining2020\AT.Model\obj\Debug\netcoreapp3.1\AT.Model.csproj.CopyComplete
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Code\netcoretraining2020\AT.Model\obj\Debug\netcoreapp3.1\AT.Model.dll
+C:\Users\Erik Basto\source\repos\TrainingNetCore\Code\netcoretraining2020\AT.Model\obj\Debug\netcoreapp3.1\AT.Model.pdb
