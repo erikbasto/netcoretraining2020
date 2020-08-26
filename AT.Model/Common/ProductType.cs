@@ -12,6 +12,9 @@ namespace AT.Model.Common
         public int Id{get;set;}
         public string ProductTypeName {get;set;}
 
+        // Removed as part of the assigment
+        // public string Comments {get;set;}
+
         //Navigation
         public ICollection<Product> Products{get;set;}
     }
