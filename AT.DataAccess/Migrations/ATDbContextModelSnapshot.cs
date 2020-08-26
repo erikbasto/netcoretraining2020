@@ -42,6 +42,21 @@ namespace AT.DataAccess.Migrations
                     b.ToTable("Products");
                 });
 
+            modelBuilder.Entity("AT.Model.Common.ProductStore", b =>
+                {
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("StoreId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ProductId", "StoreId");
+
+                    b.HasIndex("StoreId");
+
+                    b.ToTable("ProductStores");
+                });
+
             modelBuilder.Entity("AT.Model.Common.ProductType", b =>
                 {
                     b.Property<int>("Id")
@@ -74,6 +89,21 @@ namespace AT.DataAccess.Migrations
                         });
                 });
 
+            modelBuilder.Entity("AT.Model.Common.Store", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Stores");
+                });
+
             modelBuilder.Entity("AT.Model.Common.User", b =>
                 {
                     b.Property<int>("Id")
@@ -94,6 +124,21 @@ namespace AT.DataAccess.Migrations
                     b.HasOne("AT.Model.Common.ProductType", "ProductType")
                         .WithMany("Products")
                         .HasForeignKey("ProductTypeId");
+                });
+
+            modelBuilder.Entity("AT.Model.Common.ProductStore", b =>
+                {
+                    b.HasOne("AT.Model.Common.Product", "Product")
+                        .WithMany("ProductStores")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("AT.Model.Common.Store", "Store")
+                        .WithMany("ProductStores")
+                        .HasForeignKey("StoreId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

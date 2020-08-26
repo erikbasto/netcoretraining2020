@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using AT.IModel.Common;
 
 namespace AT.Model.Common
@@ -11,5 +12,7 @@ namespace AT.Model.Common
         public int IdProductType{get;set;}
         public ProductType ProductType {get;set;}
        #endregion
+
+       public ICollection<ProductStore> ProductStores{get;set;}
     }
 }
