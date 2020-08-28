@@ -4,59 +4,58 @@ using System.Linq;
 using AT.DataAccess.Data;
 using AT.IDataAccess.IRepositoryPattern;
 using AT.Model.Common;
-using Microsoft.EntityFrameworkCore;
 
 namespace AT.DataAccess.Repository
 {
-    public class UserRepository : IRepository<User>
+    public class ProductRepository : IRepository<Product>
     {
         private readonly ATDbContext context;
 
-        public UserRepository(ATDbContext context){
+        public ProductRepository(ATDbContext context){
             this.context = context;
             this.context.ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
         }
 
-        public User Create(User Entity)
+        public Product Create(Product Entity)
         {
-           context.Users.Add(Entity);
+           context.Products.Add(Entity);
            context.SaveChanges();
            return Entity;
         }
 
-        public void Delete(User Entity)
+        public void Delete(Product Entity)
         {
-            var userToBeDeleted = context.Users.Find(Entity.Id);
-            if(userToBeDeleted!=null){
-                context.Users.Remove(userToBeDeleted);
+            var item = context.Users.Find(Entity.Id);
+            if(item!=null){
+                context.Products.Remove(Entity);
                 context.SaveChanges();
             }
         }
 
-        public IEnumerable<User> GetAll()
+        public IEnumerable<Product> GetAll()
         {
-            return context.Users.ToList();
+            return context.Products.ToList();
         }
 
-        public User GetById(int Id)
+        public Product GetById(int Id)
         {
-            return context.Users.Find(Id);
+            return context.Products.Find(Id);
         }
 
         // SaveOrUpdate strategy
-        public User Update(User Entity)
+        public Product Update(Product Entity)
         {
             if(Entity==null)
                 throw new ArgumentNullException(nameof(Entity));
 
-            var userToBeUpdated = context.Users.Find(Entity.Id);
-            if(userToBeUpdated!=null)
+            var item = context.Products.Find(Entity.Id);
+            if(item!=null)
             {
-                context.Users.Update(Entity);
+                context.Products.Update(Entity);
             }
             else
             {
-                context.Users.Add(Entity);
+                context.Products.Add(Entity);
             }
             context.SaveChanges();
             return Entity;
