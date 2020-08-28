@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using AT.DataAccess.Data;
@@ -40,9 +41,23 @@ namespace AT.DataAccess.Repository
             return context.Users.Find(Id);
         }
 
+        // SaveOrUpdate strategy
         public User Update(User Entity)
         {
-            throw new System.NotImplementedException();
+            if(Entity==null)
+                throw new ArgumentNullException(nameof(Entity));
+
+            var userToBeUpdated = context.Users.Find(Entity.Id);
+            if(userToBeUpdated!=null)
+            {
+                context.Entry(userToBeUpdated).CurrentValues.SetValues(Entity);  
+            }
+            else
+            {
+                context.Users.Add(Entity);
+            }
+            context.SaveChanges();
+            return Entity;
         }
     }
 }
