@@ -4,6 +4,7 @@ using System.Linq;
 using AT.DataAccess.Data;
 using AT.IDataAccess.IRepositoryPattern;
 using AT.Model.Common;
+using Microsoft.EntityFrameworkCore;
 
 namespace AT.DataAccess.Repository
 {
@@ -13,6 +14,7 @@ namespace AT.DataAccess.Repository
 
         public UserRepository(ATDbContext context){
             this.context = context;
+            this.context.ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
         }
 
         public User Create(User Entity)
@@ -50,7 +52,7 @@ namespace AT.DataAccess.Repository
             var userToBeUpdated = context.Users.Find(Entity.Id);
             if(userToBeUpdated!=null)
             {
-                context.Entry(userToBeUpdated).CurrentValues.SetValues(Entity);  
+                context.Users.Update(Entity);
             }
             else
             {
