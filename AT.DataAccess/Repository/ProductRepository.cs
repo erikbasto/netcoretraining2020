@@ -4,6 +4,7 @@ using System.Linq;
 using AT.DataAccess.Data;
 using AT.IDataAccess.IRepositoryPattern;
 using AT.Model.Common;
+using Microsoft.EntityFrameworkCore;
 
 namespace AT.DataAccess.Repository
 {
@@ -13,7 +14,7 @@ namespace AT.DataAccess.Repository
 
         public ProductRepository(ATDbContext context){
             this.context = context;
-            this.context.ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
+            this.context.ChangeTracker.QueryTrackingBehavior = Microsoft.EntityFrameworkCore.QueryTrackingBehavior.NoTracking;
         }
 
         public Product Create(Product Entity)
