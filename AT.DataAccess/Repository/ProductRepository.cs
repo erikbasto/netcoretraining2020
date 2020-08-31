@@ -26,7 +26,7 @@ namespace AT.DataAccess.Repository
 
         public void Delete(Product Entity)
         {
-            var item = context.Users.Find(Entity.Id);
+            var item = context.Products.Find(Entity.Id);
             if(item!=null){
                 context.Products.Remove(Entity);
                 context.SaveChanges();
