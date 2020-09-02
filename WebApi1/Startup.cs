@@ -47,6 +47,7 @@ namespace WebApi1
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         
             services.AddTransient<IRepository<User>, UserRepository>();
+            services.AddTransient<IRepository<ProductType>, ProductTypeRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
