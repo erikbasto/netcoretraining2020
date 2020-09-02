@@ -14,6 +14,9 @@ using Swashbuckle.AspNetCore.Swagger;
 using Microsoft.OpenApi.Models;
 using AT.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
+using AT.DataAccess.Repository;
+using AT.IDataAccess.IRepositoryPattern;
+using AT.Model.Common;
 
 namespace WebApi1
 {
@@ -42,6 +45,8 @@ namespace WebApi1
 
             services.AddDbContext<ATDbContext>(options => 
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+        
+            services.AddTransient<IRepository<User>, UserRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
