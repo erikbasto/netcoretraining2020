@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using AT.IModel.Common;
 
 namespace AT.Model.Common
@@ -10,6 +11,8 @@ namespace AT.Model.Common
 
        #region ProductType FK
         public int IdProductType{get;set;}
+        
+        [ForeignKey("IdProductType")]
         public ProductType ProductType {get;set;}
        #endregion
 

@@ -47,7 +47,11 @@ namespace WebApi1.Controllers
         {
             try
             {
-                return Ok(userRepository.Update(user));
+                user = userRepository.Update(user);
+                if(user!=null)
+                    return Ok(user);
+                else
+                    return NotFound();
             }
             catch(ArgumentNullException )
             {

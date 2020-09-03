@@ -48,6 +48,7 @@ namespace WebApi1
         
             services.AddTransient<IRepository<User>, UserRepository>();
             services.AddTransient<IRepository<ProductType>, ProductTypeRepository>();
+            services.AddTransient<IRepository<Product>, ProductRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
