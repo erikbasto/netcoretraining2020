@@ -17,11 +17,17 @@ namespace AT.DataAccess.Repository
             this.context.ChangeTracker.QueryTrackingBehavior = Microsoft.EntityFrameworkCore.QueryTrackingBehavior.NoTracking;
         }
 
-        public Product Create(Product Entity)
+        public Product Create(Product entity)
         {
-           context.Products.Add(Entity);
+            if(entity.IdProductType<=0)
+            {
+                throw new ArgumentNullException(nameof(entity.IdProductType));
+            }
+            entity.ProductType=null;
+
+           context.Products.Add(entity);
            context.SaveChanges();
-           return Entity;
+           return entity;
         }
 
         public void Delete(Product Entity)
@@ -43,23 +49,25 @@ namespace AT.DataAccess.Repository
             return context.Products.Find(Id);
         }
 
-        // SaveOrUpdate strategy
-        public Product Update(Product Entity)
+        public Product Update(Product entity)
         {
-            if(Entity==null)
-                throw new ArgumentNullException(nameof(Entity));
+            if(entity==null)
+                throw new ArgumentNullException(nameof(entity));
 
-            var item = context.Products.Find(Entity.Id);
+            if(entity.IdProductType<=0)
+            {
+                throw new ArgumentNullException(nameof(entity.IdProductType));
+            }
+            entity.ProductType=null;
+
+            var item = context.Products.Find(entity.Id);
             if(item!=null)
             {
-                context.Products.Update(Entity);
+                context.Products.Update(entity);
+                context.SaveChanges();
+                return entity;
             }
-            else
-            {
-                context.Products.Add(Entity);
-            }
-            context.SaveChanges();
-            return Entity;
+            return null;
         }
     }
 }

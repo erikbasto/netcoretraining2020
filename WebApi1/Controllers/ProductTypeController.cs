@@ -47,7 +47,11 @@ namespace WebApi1.Controllers
         {
             try
             {
-                return Ok(_productTypeRepository.Update(productType));
+                productType = _productTypeRepository.Update(productType);
+                if(productType!=null)
+                    return Ok(productType);
+                else
+                    return NotFound();
             }
             catch(ArgumentNullException )
             {

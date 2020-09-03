@@ -42,7 +42,6 @@ namespace AT.DataAccess.Repository
             return context.ProductTypes.Find(Id);
         }
 
-        // SaveOrUpdate strategy
         public ProductType Update(ProductType Entity)
         {
             if(Entity==null)
@@ -52,13 +51,10 @@ namespace AT.DataAccess.Repository
             if(item!=null)
             {
                 context.ProductTypes.Update(Entity);
+                context.SaveChanges();
+                return Entity;
             }
-            else
-            {
-                context.ProductTypes.Add(Entity);
-            }
-            context.SaveChanges();
-            return Entity;
+            return null;
         }
     }
 }

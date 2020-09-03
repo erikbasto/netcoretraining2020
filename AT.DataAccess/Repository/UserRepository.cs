@@ -43,7 +43,6 @@ namespace AT.DataAccess.Repository
             return context.Users.Find(Id);
         }
 
-        // SaveOrUpdate strategy
         public User Update(User Entity)
         {
             if(Entity==null)
@@ -53,13 +52,10 @@ namespace AT.DataAccess.Repository
             if(userToBeUpdated!=null)
             {
                 context.Users.Update(Entity);
+                context.SaveChanges();
+                return Entity;
             }
-            else
-            {
-                context.Users.Add(Entity);
-            }
-            context.SaveChanges();
-            return Entity;
+            return null;
         }
     }
 }
